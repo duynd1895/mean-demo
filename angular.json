@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "do-an-tot-nghiep": {
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "do-an-tot-nghiep"
+    }
+  },
+  "defaultProject": "do-an-tot-nghiep",
+  "cli": {
+    "analytics": "5a4b7eec-6582-44dc-80c3-1b2a909d576c"
+  }
 }
