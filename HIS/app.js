@@ -16,7 +16,7 @@ mongoose.connect('mongodb://localhost:27017/kakaka', {useNewUrlParser: true , us
   });
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
-app.use('/images', express.static(path.join('HIS/images')));
+app.use('/images', express.static(path.join('images')));
 app.use((req, res, next) => {
   res.setHeader("Access-Control-Allow-Origin", "http://localhost:4200");
   res.setHeader(
